@@ -218,6 +218,11 @@ app_license = "MIT"
 fixtures = [
     "Workspace",
     "System Settings",
-
+    {
+      "dt": "Print Format",
+        "filters": [
+            ["name", "in", ["Smart Wave SI", "Smart Wave PO"]]
+        ]
+    },
 
 ]
