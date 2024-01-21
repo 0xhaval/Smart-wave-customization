@@ -213,3 +213,11 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"smart_wave_customize.auth.validate"
 # ]
+
+
+fixtures = [
+    "Workspace",
+    "System Settings",
+
+
+]
