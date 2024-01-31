@@ -18,7 +18,7 @@
   "margin_left": 15.0,
   "margin_right": 15.0,
   "margin_top": 15.0,
-  "modified": "2024-01-21 22:46:39.575502",
+  "modified": "2024-01-25 11:09:38.781137",
   "module": "Smart Wave Customize",
   "name": "Smart Wave SI",
   "page_number": "Hide",
@@ -28,7 +28,7 @@
   "raw_commands": null,
   "raw_printing": 0,
   "show_section_headings": 1,
-  "standard": "Yes"
+  "standard": "No"
  },
  {
   "absolute_value": 0,
@@ -60,5 +60,36 @@
   "raw_printing": 0,
   "show_section_headings": 0,
   "standard": "Yes"
+ },
+ {
+  "absolute_value": 0,
+  "align_labels_right": 0,
+  "css": null,
+  "custom_format": 0,
+  "default_print_language": null,
+  "disabled": 0,
+  "doc_type": "Legal Document",
+  "docstatus": 0,
+  "doctype": "Print Format",
+  "font": null,
+  "font_size": 14,
+  "format_data": "[{\"fieldname\": \"print_heading_template\", \"fieldtype\": \"Custom HTML\", \"options\": \"<style>\\n    .print-heading {\\n        display: none; /* or visibility: hidden; */\\n        margin:0px;\\n    }\\n</style>\\n<div class=\\\"print-heading\\\">\\t\\n    \\n</div>\\n\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"_custom_html\", \"print_hide\": 0, \"label\": \"Custom HTML\", \"fieldtype\": \"HTML\", \"options\": \"<style>\\n    h1{\\n        margin-top:25px;\\n        text-align:right;\\n        font-size:50px;\\n        font-weight:bold;\\n    }\\n</style>\\n<img src=\\\"https://i.ibb.co/pymCkJ0/Screenshot-from-2024-01-21-16-23-22.png\\\" alt=\\\"Girl in a jacket\\\">\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"_custom_html\", \"print_hide\": 0, \"label\": \"Custom HTML\", \"fieldtype\": \"HTML\", \"options\": \"<h5>{{ doc.name}}</h5>\\n<h5>{{ doc.posting_date}}</h5>\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"_custom_html\", \"print_hide\": 0, \"label\": \"Custom HTML\", \"fieldtype\": \"HTML\", \"options\": \"<style>\\n    .to{\\n        text-align:right;\\n    }\\n</style>\\n\\n<h5 class=\\\"to\\\"><b>\\u0627\\u0644\\u0649 / {{ doc.to }}</b></h5>\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"_custom_html\", \"print_hide\": 0, \"label\": \"Custom HTML\", \"fieldtype\": \"HTML\", \"options\": \"<style>\\n    .subject{\\n        text-align:center;\\n    }\\n</style>\\n<h4 class=\\\"subject\\\"> \\u0645 /  {{doc.legal_subject}}</h4>\"}, {\"fieldname\": \"_custom_html\", \"print_hide\": 0, \"label\": \"Custom HTML\", \"fieldtype\": \"HTML\", \"options\": \"<style>\\n    .content{\\n        text-align:right;\\n    }\\n</style>\\n<h5 class=\\\"content\\\"> {{doc.content}}</h5>\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"_custom_html\", \"print_hide\": 0, \"label\": \"Custom HTML\", \"fieldtype\": \"HTML\", \"options\": \"<style>\\n@media print\\n{\\n    #footer {\\n         display: block;\\n         position: fixed;\\n         bottom: 0;\\n    }\\n}\\n</style>\\n\\n\\n\\n\\n<table id=\\\"footer\\\" width=\\\"100%\\\">\\n  <tr>\\n    <td width=\\\"100%\\\">\\n      <div>\\n        <img src=\\\"https://i.ibb.co/K6JTJP8/Screenshot-from-2024-01-21-21-06-42.png\\\"  alt=\\\"Girl in a jacket\\\">\\n    \\n</div>\\n    </td>\\n  </tr>\\n</table>\"}]",
+  "html": null,
+  "line_breaks": 0,
+  "margin_bottom": 15.0,
+  "margin_left": 15.0,
+  "margin_right": 15.0,
+  "margin_top": 15.0,
+  "modified": "2024-02-01 00:42:03.788222",
+  "module": "Smart Wave Customize",
+  "name": "Smart wave LD",
+  "page_number": "Hide",
+  "print_format_builder": 1,
+  "print_format_builder_beta": 0,
+  "print_format_type": "Jinja",
+  "raw_commands": null,
+  "raw_printing": 0,
+  "show_section_headings": 0,
+  "standard": "No"
  }
 ]
