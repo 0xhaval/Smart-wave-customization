@@ -217,6 +217,7 @@ override_doctype_class = {
 
 fixtures = [
     "Workspace",
+    "Translation",
     "System Settings",
     {
       "dt": "Print Format",
