@@ -222,7 +222,7 @@ fixtures = [
     {
       "dt": "Print Format",
         "filters": [
-            ["name", "in", ["Smart Wave SI", "Smart Wave PO", "Smart wave LD"]]
+            ["name", "in", ["Smart Wave SI", "Smart Wave PO", "Smart wave LD", "Offer SW"]]
         ]
     },
 
