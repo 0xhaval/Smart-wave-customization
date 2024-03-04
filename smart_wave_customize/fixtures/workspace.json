@@ -9297,7 +9297,7 @@
   "for_user": "",
   "hide_custom": 0,
   "icon": "hr",
-  "is_hidden": 0,
+  "is_hidden": 1,
   "label": "HR",
   "links": [
    {
@@ -9893,7 +9893,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2022-12-06 16:55:59.080694",
+  "modified": "2024-03-04 23:27:54.959215",
   "module": "HR",
   "name": "HR",
   "number_cards": [],
@@ -11461,7 +11461,7 @@
   "for_user": "",
   "hide_custom": 0,
   "icon": "money-coins-1",
-  "is_hidden": 0,
+  "is_hidden": 1,
   "label": "Payroll",
   "links": [
    {
@@ -11545,7 +11545,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2022-09-16 12:11:30.520597",
+  "modified": "2024-03-04 23:31:20.374728",
   "module": "Payroll",
   "name": "Payroll",
   "number_cards": [],
